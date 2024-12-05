@@ -1,14 +1,7 @@
  
  
  
-//  async function getResponse() {
-//     var response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=12c1b05d64854f8fa7a163415240312&q=cairo&days=3`);
-//     if (response.ok) {
-//        var data = await response.json();
-//        console.log(data);
-        
-//     }
-// }
+
 getResponse("cairo");
 
 var searchInput = document.getElementById("searchInput");
